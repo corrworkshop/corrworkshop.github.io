@@ -12,17 +12,23 @@ layout: coverpage
 
 <div class="row">
 <p>
-  Discrete abstractions such as objects, concepts, and events are at the basis of our ability to perceive the world, relate the pieces in it, and reason about their causal structure. The research communities of object-centric representation learning and causal machine learning, have – largely independently – pursued a similar agenda of equipping machine learning models with more structured representations and reasoning capabilities. Despite their different languages, both fields operate under the assumption that, compared to a monolithic/black-box representation, a structured model will improve systematic generalization, robustness to distribution shifts, downstream learning efficiency, and interpretability. However, both communities typically approach the problem from opposite directions.
-  Work on causality often assumes a known (true) decomposition into causal factors and is focused on inferring and leveraging interactions between them. On the other hand, object-centric representation learning, typically starts from an unstructured input and aims to infer a useful decomposition into meaningful factors, and has so far been less concerned with their interactions.
+  Current approaches in computer vision and machine learning largely depend on identifying statistical correlations within massive datasets, which limits their capability in areas requiring higher-order cognition such as domain generalization and planning. Causal Representation Learning offers a promising solution by integrating causality principles to enable models to understand cause-and-effect relationships, thereby producing object-centric and controllable representations. This method aims to overcome the challenges posed by conventional models that rely solely on correlations, offering a new pathway for advancing computer vision, particularly in dynamic and complex environments like robotics. Despite its potential, integrating causal mechanisms into computer vision and embodied AI systems remains complex, with significant challenges in modeling interventions and learning autonomously from simulations.
 </p>
 <p>
-  This workshop aims to bring together researchers from object-centric and causal representation learning. To help integrate ideas from these areas, we invite perspectives from the other fields including cognitive psychology and neuroscience. We hope that this creates opportunities for discussion, presenting cutting-edge research, establishing new collaborations and identifying future research directions.
+  This workshop aims to bring together researchers from structured (object-centric and causal) representation learning and robotics-oriented computer vision. To help integrate ideas from these areas, we invite researchers that want from Embodied AI, Causality and Representation Learning. We hope that this creates opportunities for disscusion, presenting cutting-edge research, establishing new collaborations and identifying future research directions.
 </p>
 <p>
   In particular, we welcome contributions in the direction of:
   <ul>
-      <li>Benchmarks that quantify the benefits of structured representations (e.g. systematic generalization, OOD performance, robustness wrt. interventions, etc.) </li>
-      <li>Methods for discovering / extracting abstract entities from raw data, especially self-supervised learning of structured representations</li>
+      <li>Causal representation learning, that is, how to learn representations with deep networks that conform to cause-and-effect transformations in the pixel space,</li>
+      <li>Object-centric learning, that is, without being burdened by the theoretical restrictions of causality, how well can we learn representations that are object-specific without requiring closed-world manual supervision,</li>
+      <li>Scaling Object-Centric Learning and Causal Representation Learning to real-world datasets</li>
+      <li>Learning representations that are both object-centric and causal, that is, how can we learn representations that are both object-centric and causal, and how can we leverage these representations for downstream tasks such as reinforcement learning, planning, and decision making.</li>
+      <li>Learning of interventions, that is, how can a robot algorithm transform and control the physical space to achieve certain goals</li>
+      <li>Causal Reinforcement for Embodied AI, that is how to best learn RL policies to achieve goals if we know what the cause-and-effects of our world are</li>
+      <li>Benchmarks that quantify the benefits of causal and object-centric representations (e.g. systematic generalization, OOD performance, robustness wrt. interventions, etc.) </li>
+      <li>Relations and possible synergies to foundation models</li>
+      <!-- <li>Methods for discovering / extracting abstract entities from raw data, especially self-supervised learning of structured representations</li>
       <li>Integrating ideas from causality into neural network architectures</li>
       <li>Applying tools from deep learning to more traditional causal discovery approaches, which may sacrifice recovery guarantees</li>
       <li>Structure Inference (relations, interactions, compositions, etc.) especially between unobserved variables</li>
@@ -30,7 +36,7 @@ layout: coverpage
       <li>Theoretical work on the challenges of learning abstractions and invariances from data</li>
       <li>Discovering or leveraging objects, concepts or causal structures for reinforcement learning (e.g. for exploration or model-learning)</li>
       <li>Integration of neural networks and symbolic or probabilistic reasoning (e.g. neurosymbolic methods or probabilistic programming)</li>
-      <li>Applications of objects, structured representations, or causal reasoning  (e.g. in computer vision, audio processing, robotics)</li>
+      <li>Applications of objects, structured representations, or causal reasoning  (e.g. in computer vision, audio processing, robotics)</li> -->
   </ul>
 </p>
 
