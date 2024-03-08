@@ -249,3 +249,37 @@ table .time {
     text-align: center;
   }
 }
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner-img {
+  width: 100%;
+  display: block; /* Ensures the image covers the full area */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4); /* Adds a dark background to the text */
+  color: #FFFFFF; /* Ensuring text is white */
+  padding: 20px;
+  border-radius: 10px; /* Optional: adds rounded corners to the text background */
+  font-size: 1.5em; /* Adjust based on your design */
+  font-weight: bold; /* Makes the font bolder */
+  /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); Adds a shadow to the text */
+  max-width: 80%; /* Ensures text block doesn't span the full width of the image */
+  box-sizing: border-box;
+}
+
+.banner-text h1,
+.banner-text h2,
+.banner-text h3 {
+  color: #FFFFFF; /* Ensuring text is white */
+  margin-bottom: 20px; /* Keep or adjust as needed */
+  font-family: Roboto, sans-serif; /* Ensure consistency if needed, or remove if not */
+}
