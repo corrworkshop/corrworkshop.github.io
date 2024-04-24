@@ -60,6 +60,14 @@ table {
   border: none;
 }
 
+/* .table td {
+  /* border: none; */
+  /* width: 10px; */
+/* } */ 
+#schedule th.time, #schedule td.time {
+  width: 150px;  /* Adjust this value to increase or decrease the width */
+}
+
 .no-bottom-margin {
   margin-bottom: 0;
 }
@@ -134,6 +142,7 @@ table {
 
 #program td {
 	padding: 10px;
+  /* width: 300px; */
 }
 
 #content {
