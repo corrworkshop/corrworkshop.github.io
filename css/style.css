@@ -68,6 +68,10 @@ table {
   width: 150px;  /* Adjust this value to increase or decrease the width */
 }
 
+#papers th.time, #papers td.time {
+  width: 200px;  /* Adjust this value to increase or decrease the width */
+}
+
 .no-bottom-margin {
   margin-bottom: 0;
 }
